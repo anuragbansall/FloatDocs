@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { addDoc } from '../ReduxSlices/DocsSlice.js';
+import { addDoc } from '../ReduxSlices/docsSlice.js';
 
 function AddDocForm({ onClose }) {
     const dispatch = useDispatch();
